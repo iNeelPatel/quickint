@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700');
 body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
@@ -18,10 +18,6 @@ body {
 
 .navbar .navbar-collapse {
     position: relative;
-}
-
-.navbar .navbar-collapse .navbar-right>li:last-child {
-    padding-left: 22px;
 }
 
 .navbar .nav-collapse {
@@ -63,10 +59,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .navbar .navbar-collapse .navbar-right>li:last-child {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     .navbar .nav-collapse {
         margin: 7.5px auto;
         padding: 0;
@@ -97,6 +89,7 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #4a32d6;
     background: #fff;
+    font-weight: 700;
 }
 
 .heading {
@@ -124,9 +117,94 @@ body {
     margin-top: 20px;
 }
 
-.section1 {
+#about {
     background: #4a32d6;
     width: 100%;
     content: '';
-    height: 500px;
+    min-height: 500px;
+}
+
+.section-heading {
+    padding-left: 80px;
+    padding-top: 80px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.line-w {
+    content: ' ';
+    width: 40px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.about-info {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 200px 80px;
+}
+
+.about-img {
+    width: 95%;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-info {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 50px 25px;
+    }
+}
+
+#services {
+    background: #ffffff;
+    min-height: 300px;
+}
+
+.services-header {
+    padding-left: 80px;
+    padding-top: 80px;
+    color: #4a32d6;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.line-b {
+    content: ' ';
+    width: 40px;
+    height: 2px;
+    background: #4a32d6;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.services-card {
+    border: none;
+    padding: 20px;
+}
+
+.icon {
+    color: #4a32d6;
+    font-size: 48px;
+}
+
+.icon-u {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #4a32d6;
+    margin-left: 62px;
+}
+
+.services-info {
+    padding-top: 15px;
+    color: #4a32d6;
+    font-weight: 100;
+    font-size: 24px;
 }
