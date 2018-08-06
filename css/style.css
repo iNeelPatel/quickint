@@ -94,23 +94,24 @@ body {
     height: 68px;
 }
 
-.landing-bg {
-    width: 100%
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #4a32d6;
+    background: #fff;
 }
 
 .heading {
     width: 100%;
-    height: 550px;
+    height: 750px;
     background: #FFF url(../img/background.png) no-repeat;
     background-position: bottom -65px right;
-    background-size: 75%;
+    background-size: 68%;
     color: #4a32d6;
     font-size: 2.5em;
     font-weight: 300;
 }
 
 .heading .info {
-    margin-top: 200px;
+    padding-top: 300px;
     margin-left: 100px;
 }
 
@@ -121,4 +122,11 @@ body {
     background: #4a32d6;
     position: absolute;
     margin-top: 20px;
+}
+
+.section1 {
+    background: #4a32d6;
+    width: 100%;
+    content: '';
+    height: 500px;
 }
