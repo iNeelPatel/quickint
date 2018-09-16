@@ -2884,7 +2884,6 @@ svg {
         padding-top: 5px
     }
     .landing-page .content .content-section.section-about .info-blocks-wrap {
-        padding: 42px 0 100px 0;
         width: 100%;
         display: inline-block
     }
@@ -2921,8 +2920,9 @@ svg {
         margin-bottom: 70px
     }
     .landing-page .content .content-section.section-about .team-block .person .photo img {
-        width: 80px;
-        height: 80px
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
     }
     .landing-page .content .content-section.section-about .team-block .person .data {
         margin: 20px 0 0 20px
